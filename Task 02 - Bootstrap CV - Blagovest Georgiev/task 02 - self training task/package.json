@@ -1,0 +1,23 @@
+{
+  "name": "bootstrap-cv",
+  "version": "1.0.0",
+  "description": "Unbelievable Academy project",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "concurrently \"npm run devServer\" \"npm run scss\"",
+    "devServer": "nodemon",
+    "scss": "sass --watch src/scss/App.scss public/css/styles.css"
+  },
+  "author": "Blagovest Georgiev",
+  "license": "MIT",
+  "dependencies": {
+    "@popperjs/core": "^2.10.2",
+    "bootstrap": "^5.1.3",
+    "concurrently": "^6.3.0",
+    "express": "^4.17.1",
+    "sass": "^1.43.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}

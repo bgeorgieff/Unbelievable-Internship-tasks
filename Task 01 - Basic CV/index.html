@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <title>Blagovest Georgiev - Unebelievable Intern Program - 01-CV</title>
+</head>
+<body>
+  <div class='container'>
+    <header>
+      <div class='image-container'>
+        <img src="/images/1626854735796.png" alt="Blagovest Georgiev"/>
+      </div>
+    </header>
+    <div class="section-container">
+      <aside>
+        <h2>Personal Information</h2>
+        <hr>
+        <div class="info-item">
+          <div class="na-info">
+            <div class="section-title">
+              <h5>Marco Polo</h5>
+              <p>10/10/1998</p>
+            </div>
+          </div>
+        </div>
+        <div class="info-item">
+          <div class="section-title">
+            <h5>Contact info:</h5>
+          </div>
+          <div class="contact-info">
+            <i class="fas fa-phone-square fa-lg"></i>
+            <a href="tel:+359 89 111 22 33" target="_blank">+359 89 111 22 33</a>
+            <div class="pointer">
+              <div class="pointer-holder">
+                <i class="fas fa-hand-point-left"></i>
+              </div>
+            </div>
+          </div>
+          <div class="contact-info">
+            <i class="fas fa-map-marker-alt"></i>
+            <a href="#" target="_blank">Ulitsa Sofia 1 Varna / Bulgaria 9000</a>
+            <div class="pointer">
+              <div class="pointer-holder">
+                <i class="fas fa-hand-point-left"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="info-item">
+          <h4>Skills</h4>
+          <div class='skill-table'>
+            <div class="skill-item">HTML/CSS</div>
+            <div class="skill-item">Javascript</div>
+            <div class="skill-item">MongoDB</div>
+            <div class="skill-item">ExpressJS</div>
+            <div class="skill-item">React</div>
+            <div class="skill-item">NodeJS</div>
+          </div>
+        </div>
+        <div class="info-item">
+          <h4>Languages</h4>
+          <div class="l-container">
+            <ul>
+              <li>Bulgarian</li>
+              <li>English</li>
+            </ul>
+          </div>
+        </div>
+      </aside>
+      <section>
+        <div class="skill-item">
+          <h2>Education Information</h2>
+          <hr>
+          <div class="i-container">
+            <h4>Academy Innovator 2017-2020</h4>
+            <p>Web Technology and Development</p>
+          </div>
+        </div>
+        <div class="skill-item">
+          <h2>Work Experience</h2>
+          <hr class="exp-divider">
+          <div class="i-container">
+            <div class="title">
+              <h4>Innovator</h4>
+              <span>April 2020 - May 2021</span>
+            </div>
+            <p>Web Technology and Development</p>
+          </div>
+          <div class="i-container">
+            <div class="title">
+              <h4>Tech LTD</h4>
+              <span>April 2019 - May 2020</span>
+            </div>
+            <p>Web Technology and Development</p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+  <script>
+    const contact = [...document.getElementsByClassName('contact-info')]
+  
+    contact.forEach(el => {
+      el.addEventListener('mouseover', () => {
+        el.getElementsByClassName('pointer')[0].style.display = 'inline-block'
+      })
+  
+      el.addEventListener('mouseout', () => {
+        el.getElementsByClassName('pointer')[0].style.display = 'none'
+      })
+    })
+  </script>
+  </body>
+</html>

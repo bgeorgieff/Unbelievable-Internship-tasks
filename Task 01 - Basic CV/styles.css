@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  max-width: 1440px;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 700px;
+  line-height: 39.16px;
+  padding-top: 15px;
+}
+
+h4 {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 29.3px;
+}
+
+h5 {
+  font-size: 23.44px;
+}
+
+hr {
+  width: 266.02px;
+  margin-top: 12px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.image-container {
+  position: relative;
+  width: 210px;
+  height: 210px;
+  left: 615px;
+  top: 28px;
+  text-align: center;
+}
+
+.image-container > img {
+  position: absolute;
+  max-width: 210px;
+  max-height: 210px;
+}
+
+.section-container {
+  margin: 5rem auto;
+  max-width: 1317px;
+  display: grid;
+  grid-template-columns: 0.8fr 2fr;
+  border-top: 1px solid #000;
+}
+
+.section-container > section {
+  border-left: 1px solid #000000;
+}
+
+.section-container > section > .skill-item > h2,
+.section-container > section > .skill-item  > hr {
+  text-align: center;
+  color:#FF0000;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-container > section > .skill-item  > hr.exp-divider {
+  color: #000000;
+}
+
+.section-container > section > .skill-item:nth-child(2) > h2 {
+  color: #0029FF;
+}
+
+.i-container {
+  margin: 50px 37px;
+}
+
+.i-container > .title {
+  display: flex;
+  align-items:flex-end;
+}
+
+.i-container > .title > span {
+  margin: 0 0.4rem;
+  color: #757575;
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.i-container > p {
+  margin: 14px 0;
+  display: flex;
+  flex: 0 0 100%;
+  font-weight: 300;
+  color: #757575;
+}
+
+.section-container > aside > .info-item {
+  max-height: 100%;
+  padding-right: 1.4rem;
+  margin: 1.5rem 0;
+  transition: 0.4s ease-in-out;
+}
+
+
+.section-container > aside > .info-item > .na-info > .section-title {
+  margin: 2rem 0 0.8rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-container > aside > .info-item > .na-info > .section-title > p {
+  color: #757575;
+}
+
+.section-container > aside > .info-item > .contact-info {
+  transition: 0.4s ease-in-out;
+  margin: 0.8rem;
+  border: 1px solid #000000;
+  border-radius: 0.6rem;
+  padding: 0.4rem;
+}
+
+.section-container > aside > .info-item > .contact-info:hover {
+  background-color: #eceded;
+  transform: scale(1.08);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  border: none;
+  cursor: pointer;
+}
+
+.section-container > aside > .info-item > .contact-info > .pointer {
+  display: none;
+}
+
+.section-container > aside > .info-item > .contact-info > span {
+  margin: 0 0.3rem;
+}
+
+.section-container > aside > .info-item > .skill-table {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.section-container > aside > .info-item > .skill-table > .skill-item {
+  margin: 0.8rem;
+  text-align: center;
+  color: #757575;
+}
+
+.section-container > aside > .info-item > .l-container > ul {
+  display: flex;
+  font: inherit;
+  list-style-type: none;
+  margin: 0.8rem;
+}
+
+.section-container > aside > .info-item > .l-container > ul > li {
+  margin: 0.4rem;
+  color: #757575;
+}
